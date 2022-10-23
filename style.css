@@ -1,0 +1,62 @@
+body{
+    background: linear-gradient(to right, #cc2b5e, #753a88);
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.title{
+    text-align: center;
+    color: #FFFF00;
+    transition: 0.2s ease-in-out;
+}
+
+.title:hover{
+    color: white;
+    cursor: default;
+}
+
+.set{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+button{
+    
+    font-size: large;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 60px;
+    border: none;
+    outline: none;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+
+}
+
+button:hover{
+    
+    border: none;
+    background-color: #FFFF00;
+    font-size: large;
+
+    
+}
+
+.volume{
+    margin-top: 30px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-volume{
+    font-size: large;
+}
+
+#sound{
+    margin: 20px;
+    width: 200px;
+}
